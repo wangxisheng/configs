@@ -1,0 +1,38 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+  "files.associations": {
+    "*.conf": "NGINX"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  //  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pep8Args": [
+    "--max-line-length=120",
+    "--ignore=E712,E1101,C0121,C0301,F405,E711,C0103,E0102"
+  ],
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E712,E1101,C0121,C0301,F405,E711,C0103,E0102"
+  ],
+  //"editor.formatOnSave": true,
+  "python.linting.pylintArgs": [
+    "--max-line-length=120",
+    "--disable=E0213,C0111,C0121,C0301,F405,E711,C0103,E0102"
+  ],
+  "git.confirmSync": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-cmd.exe",
+  "python.formatting.provider": "yapf",
+  "fileheader.Author": "Yingting Miao",
+  "fileheader.tpl": "#!/bin/env python3\n# -*- coding:utf-8 -*-\n# @Author: {author}\n# @Date: {createTime}\n# @Last Modified by:   {lastModifiedBy}\n# @Last Modified time: {updateTime}\n\n",
+  "fileheader.LastModifiedBy": "Yingting Miao",
+  "explorer.confirmDragAndDrop": false,
+  "editor.multiCursorModifier": "alt",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true
+}
